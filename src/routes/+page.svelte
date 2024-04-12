@@ -14,8 +14,8 @@
 	<Content></Content>
 </div>
 <!-- <Tools></Tools>
-<Projects></Projects>
-<Contact /> -->
+<Projects></Projects> -->
+<Contact /> 
 
 <style lang="postcss">
 	.background {

@@ -2,15 +2,15 @@
 </script>
 
 <div class="h-[100%] md:h-[30rem] w-full md:w-[20rem] lg:w-[30rem] text-center md:text-left pt-[7rem] pb-7 md:sticky top-0 md:left-[8%] lg:left-[15%] mx-auto">
-	<h1 class="text-[3.7rem] md:text-[3rem] lg:text-[3.7rem] text-extrabold font-cool">Francis Comar</h1>
+	<h1 class="text-[3rem] md:text-[3rem] lg:text-[3.7rem] text-extrabold font-cool">Francis Comar</h1>
 	<h3 class="text-[25px] md:text-[1.6rem] lg:text-[1.8rem] opacity-90 mt-3">Web Developer</h3>
-	<p class="md:text-[0.9rem] lg:text-[1rem] opacity-80 italic -mt-1">I build fast, interactive, digital experiences</p>
+	<p class=" text-[0.8rem] md:text-[0.9rem] lg:text-[1rem] opacity-80 italic -mt-1">I build fast, interactive, digital experiences</p>
 
 	<div class="flex flex-row md:flex-col mt-[4rem] ml-0 -space-x-1 md:space-x-0 md:space-y-2 justify-center">
-		<a href="#about" class="transition underline md:no-underline hover:underline p-3 md:p-0 opacity-90 hover:opacity-100">about me</a>
-		<a href="#experience" class="transition underline md:no-underline hover:underline p-3 md:p-0 opacity-90 hover:opacity-100">experience</a>
-		<a href="#tools" class="transition underline md:no-underline hover:underline p-3 md:p-0 opacity-90 hover:opacity-100">my tools</a>
-		<a href="#projects" class="transition underline md:no-underline hover:underline p-3 md:p-0 opacity-90 hover:opacity-100">my projects</a>
+		<a href="#about" class="transition underline md:no-underline hover:underline p-3 md:p-0 opacity-90 hover:opacity-100 text-[0.8rem] md:text-[0.9rem]">about me</a>
+		<a href="#experience" class="transition underline md:no-underline hover:underline p-3 md:p-0 opacity-90 hover:opacity-100 text-[0.8rem] md:text-[0.9rem]">experience</a>
+		<a href="#tools" class="transition underline md:no-underline hover:underline p-3 md:p-0 opacity-90 hover:opacity-100 text-[0.8rem] md:text-[0.9rem]">my tools</a>
+		<a href="#projects" class="transition underline md:no-underline hover:underline p-3 md:p-0 opacity-90 hover:opacity-100 text-[0.8rem] md:text-[0.9rem]">my projects</a>
 	</div>
 
 	<div class="flex flex-row justify-center mt-[3rem] space-x-7 md:space-x-4 md:justify-start">

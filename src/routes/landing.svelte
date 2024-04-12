@@ -1,19 +1,19 @@
 <script>
 </script>
 
-<div class="h-[40rem] w-[30rem] text-left pt-[95px] sticky top-0 left-[20%]">
+<div class="h-[100%] md:h-[30rem] w-[80%] md:w-[30rem] text-center md:text-left pt-[7rem] pb-7 md:sticky top-0 md:left-[10%] lg:left-[19%] mx-auto">
 	<h1 class="text-[55px] text-extrabold font-cool">Francis Comar</h1>
-	<h3 class="text-[25px] opacity-90 mt-1">Web Developer</h3>
+	<h3 class="text-[25px] opacity-90 mt-3">Web Developer</h3>
 	<p class="opacity-80 italic -mt-1">I build fast, interactive, digital experiences</p>
 
-	<div class="flex flex-col mt-[5rem] ml-3 space-y-3">
-		<a href="#about" class="transition hover:underline">about</a>
-		<a href="#experience" class="transition hover:underline">experience</a>
-		<a href="#tools" class="transition hover:underline">my tools</a>
-		<a href="#projects" class="transition hover:underline">my projects</a>
+	<div class="flex flex-row md:flex-col mt-[4rem] ml-0 space-x-0 md:space-x-0 md:space-y-2 justify-center">
+		<a href="#about" class="transition underline md:no-underline hover:underline p-3 md:p-0 opacity-90 hover:opacity-100">about me</a>
+		<a href="#experience" class="transition underline md:no-underline hover:underline p-3 md:p-0 opacity-90 hover:opacity-100">experience</a>
+		<a href="#tools" class="transition underline md:no-underline hover:underline p-3 md:p-0 opacity-90 hover:opacity-100">my tools</a>
+		<a href="#projects" class="transition underline md:no-underline hover:underline p-3 md:p-0 opacity-90 hover:opacity-100">my projects</a>
 	</div>
 
-	<div class="flex flex-row mt-[7rem] space-x-4">
+	<div class="flex flex-row justify-center mt-[3rem] space-x-7 md:space-x-4 md:justify-start">
 		<a href="https://www.linkedin.com/in/comar1/" class="hover:underline"
 			><svg
 				xmlns="http://www.w3.org/2000/svg"

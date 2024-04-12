@@ -13,9 +13,9 @@
 	<Landing></Landing>
 	<Content></Content>
 </div>
-<Tools></Tools>
+<!-- <Tools></Tools>
 <Projects></Projects>
-<Contact />
+<Contact /> -->
 
 <style lang="postcss">
 	.background {

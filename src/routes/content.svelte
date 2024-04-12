@@ -3,7 +3,7 @@
 </script>
 
 <div
-	class="pt-[110px] w-[28rem] h-full space-y-5 sticky left-[57%] mb-5 scroll-smooth"
+	class="pt-5 md:pt-[110px] w-[80%] md:w-[25rem] lg:w-[28rem] h-full space-y-5 sticky mx-auto md:left-[57%] mb-5 scroll-smooth"
 	id="about"
 >
 	<p>

@@ -1,4 +1,5 @@
 <script lang="ts">
+
 	import '../app.css';
 	import Landing from './landing.svelte';
 	import Content from './content.svelte';
@@ -6,15 +7,14 @@
 	import Projects from './projects.svelte';
 	import Contact from './contact/+page.svelte';
 
-	
 </script>
 
 <div class=" background text-white mx-auto h-full flex flex-col md:flex-row relative">
 	<Landing></Landing>
 	<Content></Content>
 </div>
-<!-- <Tools></Tools>
-<Projects></Projects> -->
+<Tools />
+<Projects />
 <Contact /> 
 
 <style lang="postcss">

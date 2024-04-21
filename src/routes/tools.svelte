@@ -1,14 +1,14 @@
 <div class="background py-12 " id="tools">
 	<div class="my-9 font-cool text-center text-[34px] text-blue-900 italic w-screen">
-		<h2 class="bg-white w-1/4 mx-auto">What I Use</h2>
+		<h2 class="bg-white w-[20rem] mx-auto">What I Use</h2>
 	</div>
 
 	<div class="my-9">
 		<h2 class="font-cool text-center text-blue-900">My Personal Stack</h2>
 		<div
-			class="container flex flex-row w-[50%] justify-center border-2 border-grey rounded my-3 py-5 mx-auto"
+			class="container flex flex-col md:flex-row w-[50%] text-center justify-center border-2 border-grey rounded my-3 py-5 mx-auto"
 		>
-			<a href="https://svelte.dev/">
+			<a href="https://svelte.dev/" class="">
 				<div
 					class="bg-white text-center h-[120px] w-[100px] border-2 border-orange-600 rounded space-y-3 p-3 m-2 mx-4 -ml-1 shadow-md hover:shadow-xl hover:cursor-pointer" 
 				>

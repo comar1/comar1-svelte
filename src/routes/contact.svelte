@@ -2,12 +2,12 @@
     export let form;
 </script>
 
-<div class="h-full w-full text-left py-[95px] sticky top-0 left-[20%] background space-y-12">
-    <div class=" font-cool text-center text-[34px] text-blue-900 italic w-full" >
-		<h2 class="bg-white w-1/4 mx-auto">Contact Me</h2>
+<div class="h-full w-full text-left py-[95px] top-0 left-[20%] background space-y-12">
+    <div class=" font-cool text-center text-[34px] text-blue-900 italic" >
+		<h2 class="bg-white w-1/4 mx-auto">Contact Me!</h2>
     </div>
-    <div>
-        <div class="bg-white w-[30rem] h-[full] my-8 p-8 -pb-3 mx-auto rounded-md">
+    <!-- <div>
+        <div class="bg-white w-[30rem] h-full my-8 p-8 -pb-3 mx-auto rounded-md">
             <form on:submit|preventDefault method="post">
                 <span class="font-cool">From:</span>
                 <input type="email" name="from" id=""  placeholder="sample@gmail.com" class="bg-slate-200 w-[89%] h-8 p-2 pl-4 my-1 mb-4 rounded-md hover:border-2 hover:cursor-pointer focus:bg-white">
@@ -20,7 +20,7 @@
                 <p class="success">{form?.success || " "}</p>
             </form>
         </div>
-    </div>
+    </div> -->
 </div>
 <style lang="postcss">
 .background

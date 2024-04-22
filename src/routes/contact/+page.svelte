@@ -24,8 +24,8 @@
 
 </script>
 
-<div class="h-[full] w-screen text-left py-[95px] sticky top-0 left-[20%] background space-y-12">
-    <div class=" font-cool text-center text-[34px] text-blue-900 italic w-screen" >
+<div class="h-[full] w-full text-left py-[95px] sticky top-0 left-[20%] background space-y-12">
+    <div class=" font-cool text-center text-[34px] text-blue-900 italic w-full" >
 		<h2 class="bg-white w-1/4 mx-auto">Contact Me</h2>
     </div>
     <div>

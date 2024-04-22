@@ -7,7 +7,7 @@
 <div class="h-full background text-center py-10  " id="projects">
 	<div class="py-[2rem] pt-[4rem] font-cool text-center text-[34px] text-blue-900 italic w-full" >
 		<h2 class="bg-white w-[50%] md:w-1/4 mx-auto">My Projects</h2>
-		<p class="text-white w-2/4 mx-auto mt-5 py-5 pl-px-50">you can view some of my work here. all projects are <a href="#" class="underline">fully responsive</a> deployed using <a href="https://www.netlify.com/" class="underline">netlify</a></p>
+		<p class="text-white w-2/4 mx-auto mt-5 py-5 pl-px-50">you can view some of my work here. all projects are <a href="#/" class="underline">fully responsive</a> deployed using <a href="https://www.netlify.com/" class="underline">netlify</a></p>
 	</div>
 	<div class="flex flex-col md:flex-row justify-center gap-x-11 mx-auto py-5 pb-9 md:space-y-0 space-y-10">
 		<div class="bg-white w-[300px] h-[410px] rounded-lg hover:border-2 md:mx-0 mx-auto  ">

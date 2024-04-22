@@ -1,14 +1,14 @@
 <div class="background py-12 " id="tools">
-	<div class="my-9 font-cool text-center text-[34px] text-blue-900 italic w-screen">
-		<h2 class="bg-white w-[20rem] mx-auto">What I Use</h2>
+	<div class="my-9 font-cool text-center text-[2rem] md:text-[34px]  text-blue-900 italic w-screen">
+		<h2 class="bg-white w-full md:w-[20rem] mx-auto">What I Use</h2>
 	</div>
 
 	<div class="my-9">
 		<h2 class="font-cool text-center text-blue-900">My Personal Stack</h2>
 		<div
-			class="container flex flex-col md:flex-row w-[50%] text-center justify-center border-2 border-grey rounded my-3 py-5 mx-auto"
+			class="container flex flex-col md:flex-row w-[70%] md:w-[50%] mx-auto justify-center text-center border-2 border-grey rounded my-3 py-5"
 		>
-			<a href="https://svelte.dev/" class="">
+			<a href="https://svelte.dev/" class="mx-auto md:mx-0">
 				<div
 					class="bg-white text-center h-[120px] w-[100px] border-2 border-orange-600 rounded space-y-3 p-3 m-2 mx-4 -ml-1 shadow-md hover:shadow-xl hover:cursor-pointer" 
 				>
@@ -55,7 +55,7 @@
 					<p class="font-cool text-orange-600">SvelteJS</p>
 				</div>
 			</a>
-			<a href="https://laravel.com/">
+			<a href="https://laravel.com/" class="mx-auto md:mx-0">
 				<div
 				class="bg-white text-center h-[120px] w-[100px] border-2 border-orange-300 rounded space-y-3 p-3 m-2 mx-4 -ml-1 shadow-md hover:shadow-xl hover:cursor-pointer"
 			>
@@ -71,7 +71,7 @@
 				<p class="font-cool text-orange-600">Laravel</p>
 				</div>
 			</a>
-			<a href="https://www.mysql.com/"> 
+			<a href="https://www.mysql.com/" class="mx-auto md:mx-0"> 
 				<div
 					class="bg-white text-center h-[120px] w-[100px] border-2 border-blue-500 rounded space-y-3 p-3 m-2 mx-4 -ml-1 shadow-md hover:shadow-xl hover:cursor-pointer"
 				>
@@ -96,7 +96,7 @@
 					<p class="font-cool text-blue-500 sql">MySQL</p>
 				</div>
 			</a>
-			<a href="https://tailwindcss.com/">
+			<a href="https://tailwindcss.com/" class="mx-auto md:mx-0">
 				<div
 				class="bg-white text-center h-[120px] w-[100px] border-2 border-blue-300 rounded space-y-3 p-3 m-2 mx-4 -ml-1 shadow-md hover:shadow-xl hover:cursor-pointer"
 			>
@@ -119,9 +119,9 @@
 	<div class="">
 		<h2 class="font-cool text-center text-blue-900">...but I'm also good with</h2>
 		<div
-			class="container flex flex-row w-[90%] justify-center border-2 border-grey rounded my-3 py-5 mx-auto"
+			class="container flex flex-col md:flex-row w-[70%] justify-center border-2 border-grey rounded my-3 py-5 mx-auto"
 		>
-			<a href="https://www.w3schools.com/html/">
+			<a href="https://www.w3schools.com/html/" class="mx-auto">
 				<div
 				class="bg-white text-center h-[120px] w-[100px] border-2 border-orange-600 rounded space-y-3 px-2 py-3 m-2 mx-4 -ml-1 shadow-md hover:shadow-xl hover:cursor-pointer"
 			>
@@ -137,7 +137,7 @@
 				<p class="font-cool text-orange-600">HTML</p>
 				</div>
 			</a>
-			<a href="https://www.w3schools.com/css/">
+			<a href="https://www.w3schools.com/css/" class="mx-auto">
 				<div
 				class="bg-white text-center h-[120px] w-[100px] border-2 border-blue-500 rounded space-y-3 px-2 py-3 m-2 mx-4 -ml-1 shadow-md hover:shadow-xl hover:cursor-pointer"
 			>
@@ -153,7 +153,7 @@
 				<p class="font-cool text-blue-500">CSS</p>
 				</div>
 			</a>
-			<a href="https://react.dev/">
+			<a href="https://react.dev/" class="mx-auto">
 				<div
 				class="bg-white text-center h-[120px] w-[100px] border-2 border-cyan rounded space-y-3 px-[10px] py-3 m-2 mx-4 -ml-1 shadow-md hover:shadow-xl hover:cursor-pointer"
 			>
@@ -169,7 +169,7 @@
 				<p class="font-cool text-cyan sql">ReactJS</p>
 				</div>
 			</a>
-			<a href="https://vuejs.org/">
+			<a href="https://vuejs.org/" class="mx-auto">
 				<div
 				class="bg-white text-center h-[120px] w-[100px] border-2 border-green-400 rounded space-y-3 p-3 m-2 mx-4 -ml-1 shadow-md hover:shadow-xl hover:cursor-pointer"
 			>
@@ -191,7 +191,7 @@
 				<p class="font-cool text-green-500 sql">VueJS</p>
 				</div>
 			</a>
-			<a href="https://www.php.net/">
+			<a href="https://www.php.net/" class="mx-auto">
 				<div
 				class="bg-white text-center h-[120px] w-[100px] border-2 border-php rounded space-y-3 p-3 m-2 mx-4 -ml-1 shadow-md hover:shadow-xl hover:cursor-pointer"
 			>
@@ -241,7 +241,7 @@
 				<p class="font-cool text-php sql">PHP</p>
 				</div>
 			</a>
-			<a href="https://codeigniter.com/">
+			<a href="https://codeigniter.com/" class="mx-auto">
 				<div
 				class="bg-white text-center h-[120px] w-[100px] border-2 border-orange-500 rounded space-y-3 p-3 m-2 mx-4 -ml-1 shadow-md hover:shadow-xl hover:cursor-pointer"
 			>
@@ -266,7 +266,7 @@
 				<p class="font-cool text-orange-500">CodeIgniter</p>
 				</div>
 			</a>
-			<a href="https://nodejs.org/en">
+			<a href="https://nodejs.org/en" class="mx-auto">
 				<div
 				class="bg-white text-center h-[120px] w-[100px] border-2 border-green-500 rounded space-y-3 p-3 m-2 mx-4 -ml-1 shadow-md hover:shadow-xl hover:cursor-pointer"
 			>
@@ -440,7 +440,7 @@
 				<p class="font-cool text-green-500">NodeJS</p>
 				</div>
 			</a>
-			<a href="https://www.postgresql.org/">
+			<a href="https://www.postgresql.org/" class="mx-auto">
 				<div
 				class="bg-white text-center h-[120px] w-[100px] border-2 border-blue-500 rounded space-y-3 p-3 m-2 mx-4 -ml-1 shadow-md hover:shadow-xl hover:cursor-pointer"
 			>
@@ -485,7 +485,7 @@
 				<p class="font-cool text-blue-500">Postgres</p>
 				</div>
 			</a>
-			<a href="https://pocketbase.io/">
+			<a href="https://pocketbase.io/" class="mx-auto">
 				<div
 				class="bg-white text-center h-[120px] w-[100px] border-2 border-gray-500 rounded space-y-3 px-3 py-4 m-2 mx-4 -ml-1 shadow-md hover:shadow-xl hover:cursor-pointer"
 			>
@@ -501,7 +501,7 @@
 				<p class="font-cool text-gray-500">Pocketbase</p>
 				</div>
 			</a>
-			<a href="https://github.com/">
+			<a href="https://github.com/" class="mx-auto">
 				<div
 				class="bg-white text-center h-[120px] w-[100px] border-2 border-gray-800 rounded space-y-3 px-3 py-4 m-2 mx-4 -ml-1 shadow-md hover:shadow-xl hover:cursor-pointer"
 			>

@@ -38,7 +38,7 @@
 	</div>
 	<div class="italic w-2/5 text-right text-[0.7rem] md:text-[13px">May 2021 - Nov 2021</div>
 </div>
-<div class="flex flex-row pb-2">
+<div class="flex flex-row pb-[2rem]">
 	<div class="flex-col w-3/5 space-y-5">
 		<div class=" mx-2">
 			<p class="font-cool  text-[20px] -mt-1 -ml-4">Video Editor</p>

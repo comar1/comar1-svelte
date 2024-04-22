@@ -5,6 +5,7 @@
 	import Content from './content.svelte';
 	import Tools from './tools.svelte';
 	import Projects from './projects.svelte';
+	import WorkingOn from './workingon.svelte';
 	import Contact from './contact/+page.svelte';
 
 </script>
@@ -15,6 +16,7 @@
 </div>
 <Tools />
 <Projects />
+<WorkingOn />
 <Contact /> 
 
 <style lang="postcss">

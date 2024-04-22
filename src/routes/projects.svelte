@@ -5,12 +5,12 @@
 </script>
 
 <div class="h-full background text-center py-10  " id="projects">
-	<div class="py-[2rem] pt-[4rem] font-cool text-center text-[34px] text-blue-900 italic w-screen" >
-		<h2 class="bg-white w-1/4 mx-auto">My Projects</h2>
+	<div class="py-[2rem] pt-[4rem] font-cool text-center text-[34px] text-blue-900 italic w-full" >
+		<h2 class="bg-white w-[50%] md:w-1/4 mx-auto">My Projects</h2>
 		<p class="text-white w-2/4 mx-auto mt-5 py-5 pl-px-50">you can view some of my work here. all projects are <a href="#" class="underline">fully responsive</a> deployed using <a href="https://www.netlify.com/" class="underline">netlify</a></p>
 	</div>
-	<div class="flex flex-row justify-center gap-x-11 mx-auto py-5 pb-9">
-		<div class="bg-white w-[300px] h-[410px] rounded-lg hover:border-2 ">
+	<div class="flex flex-col md:flex-row justify-center gap-x-11 mx-auto py-5 pb-9 md:space-y-0 space-y-10">
+		<div class="bg-white w-[300px] h-[410px] rounded-lg hover:border-2 md:mx-0 mx-auto  ">
 			<a href="https://candid-buttercream-102d05.netlify.app/">
 				<img src={recipe} alt="" class=" mx-auto rounded-md opacity-75 hover:opacity-100">
 			</a>
@@ -19,7 +19,7 @@
 				<p class="text-[12px] mt-1">A simple recipe page made in pure HTML and CSS</p>
 			</div>
 		</div>
-		<div class="bg-white w-[300px] h-[410px]  rounded-lg hover:border-2">
+		<div class="bg-white w-[300px] h-[410px]  rounded-lg hover:border-2 md:mx-0 mx-auto ">
 			<a href="https://65ec3ac307d3d40008194353--newsletter-modal.netlify.app/">
 				<img src={newletter} alt="" class=" mx-auto rounded-md opacity-95 hover:opacity-100" >
 			</a>
@@ -28,7 +28,7 @@
 				<p class="text-[12px] mt-1">Made using <b>SvelteKit</b> and <b>TailwindCSS</b>. Has email validation that verifies input before allowing you to enter.</p>
 			</div>
 		</div>
-		<div class="bg-white w-[300px] h-[410px]  rounded-lg hover:border-2">
+		<div class="bg-white w-[300px] h-[410px]  rounded-lg hover:border-2 md:mx-0 mx-auto ">
 			<a href="https://fastidious-marzipan-71b23e.netlify.app/">
 				<img src={accountmodal} alt="" class=" mx-auto rounded-md opacity-95 hover:opacity-100">
 			</a>

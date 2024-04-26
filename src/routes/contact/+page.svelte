@@ -1,10 +1,12 @@
 <script lang="ts">
+	import { enhance } from '$app/forms';
 
 	let form = {
 		from: '',
 		email: '',
 		message: '',
 	}
+	let formSent = false;
 	// async function submitForm(event) {
 	// 	event.preventDefault();
 
@@ -31,13 +33,15 @@
 		form.from = '';
 		form.email = '';
 		form.message = '';
+		formSent = true;
 	}
 </script>
 
-<div class="h-[full] w-screen text-left py-[95px] sticky top-0 left-[20%] background space-y-12">
+<div class="h-[full] w-full text-left py-[95px] top-0 left-[20%] background space-y-12">
     <div class=" font-cool text-center text-[34px] text-blue-900 italic w-full" >
 		<h2 class="bg-white w-[50%] md:w-1/4 mx-auto">Contact Me</h2>
     </div>
+	{#if !formSent}
     <div>
         <div class="bg-white w-[90%] md:w-[30rem] h-[full] my-8 p-8 -pb-3 mx-auto rounded-md ">
             <!-- <form on:submit|preventDefault={handleSubmit}>
@@ -50,7 +54,7 @@
                         class="bg-slate-100 w-full h-24 p-3 my-1 rounded-md text-wrap hover:cursor-pointer focus:bg-white mouseover:bg-slate-800"></textarea>
                 <input class="bg-slate-900 rounded p-3 mt-5 h-[45px] px-5 text-white hover:cursor-pointer opacity-85 hover:opacity-100"  type="submit" value="Send"> 
             </form> -->
-			<form on:submit={submitForm} class="flex flex-col space-y-3">
+			<form on:submit={submitForm} method="POST" class="flex flex-col space-y-3" use:enhance>
 				<div class="flex flex-col md:flex-row mb-2">
 					<label>From:</label>
 					<input bind:value={form.from} type="text" id="from" name="from" required class="bg-slate-100 h-[3rem] md:w-full md:h-8 md:ml-3 pl-5 rounded-md">
@@ -151,6 +155,12 @@
 			   </form>
         </div>
     </div>
+
+	{:else}
+	<div class="">
+		<p class="text-white mx-auto my-auto text-center">Email sent! thank you for reaching out</p>
+	</div>
+	{/if}
 </div>
 <style lang="postcss">
 .background

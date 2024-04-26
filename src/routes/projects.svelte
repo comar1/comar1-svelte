@@ -33,7 +33,7 @@
 				<img src={accountmodal} alt="" class=" mx-auto rounded-md opacity-95 hover:opacity-100">
 			</a>
 			<div class="  w-[250px] h-[125px] mt-5 mx-auto p-3 rounded-sm">
-				<a href="https://fastidious-marzipan-71b23e.netlify.app/" class="text-black hover:opacity-75  font-cool text-[24px]">User Account Modal </a>
+				<a href="https://fastidious-marzipan-71b23e.netlify.app/" class="text-black hover:opacity-75  font-cool text-[24px]">User Account Modal</a>
 				<p class="text-[12px] mt-1">A popup account modal used in User management sites. Also the <b>first modal</b> I deployed.</p>
 			</div>
 		</div>

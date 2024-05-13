@@ -21,7 +21,7 @@
 	</p>
 
 	<p>
-		When I’m not at the computer, I’m usually rock climbing, reading, hanging out with my wife and
+		When I’m not at the computer, I’m usually rock climbing, reading, hanging out with my friends and
 		two cats, or running around Hyrule searching for Korok seeds
 	</p>
 	<Experience></Experience>

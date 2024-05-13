@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<div class="h-[100%] md:h-[30rem] w-full md:w-[20rem] lg:w-[30rem] text-center md:text-left pt-[7rem] pb-7 md:sticky top-0 md:left-[8%] lg:left-[15%] mx-auto">
+<div class="h-[100%] md:h-[full] w-full md:w-[20rem] lg:w-[30rem] text-center md:text-left pt-[7rem] pb-7 md:sticky top-0 md:left-[8%] lg:left-[15%] mx-auto">
 	<h1 class="text-[3rem] md:text-[3rem] lg:text-[3.7rem] text-extrabold font-cool">Francis Comar</h1>
 	<h3 class="text-[25px] md:text-[1.6rem] lg:text-[1.8rem] opacity-90 mt-3">Web Developer</h3>
 	<p class=" text-[0.8rem] md:text-[0.9rem] lg:text-[1rem] opacity-80 italic -mt-1">I build fast, interactive, digital experiences</p>
@@ -13,7 +13,7 @@
 		<a href="#projects" class="transition underline md:no-underline hover:underline p-3 md:p-0 opacity-90 hover:opacity-100 text-[0.8rem] md:text-[0.9rem]">my projects</a>
 	</div>
 
-	<div class="flex flex-row justify-center mt-[3rem] space-x-7 md:space-x-4 md:justify-start">
+	<div class="flex flex-row justify-center py-[3rem] space-x-7 md:space-x-4 md:justify-start">
 		<a href="https://www.linkedin.com/in/comar1/" class="hover:underline"
 			><svg
 				xmlns="http://www.w3.org/2000/svg"

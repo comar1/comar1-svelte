@@ -57,11 +57,11 @@
 			<form on:submit={submitForm} method="POST" class="flex flex-col space-y-3" use:enhance>
 				<div class="flex flex-col md:flex-row mb-2">
 					<label>From:</label>
-					<input bind:value={form.from} type="text" id="from" name="from" required class="bg-slate-100 h-[3rem] md:w-full md:h-8 md:ml-3 pl-5 rounded-md">
+					<input bind:value={form.from} type="text" id="from" name="from" placeholder="Sample Corporation" required class="bg-slate-100 h-[3rem] md:w-full md:h-8 md:ml-3 pl-5 rounded-md">
 				</div>
 				<div class="flex flex-col md:flex-row mb-4">
 					<label >Email:</label>
-					<input bind:value={form.email} type="email" id="email" name="email" required class="bg-slate-100 h-[3rem] md:w-full md:h-8 md:ml-3 pl-5 rounded-md ">
+					<input bind:value={form.email} type="email" id="email" name="email" placeholder="sample@gmail.com" required class="bg-slate-100 h-[3rem] md:w-full md:h-8 md:ml-3 pl-5 rounded-md ">
 				</div>
 				<!-- <div class="flex flex-col md:flex-row">
 					<label>Message:</label>
@@ -161,6 +161,8 @@
 		<p class="text-white mx-auto my-auto text-center">Email sent! thank you for reaching out</p>
 	</div>
 	{/if}
+
+	<p class="grid justify-center content-end mx-auto text-white italic">Owned by @comar1 and made using SvelteJS & TailwindCSS</p>
 </div>
 <style lang="postcss">
 .background

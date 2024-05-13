@@ -120,7 +120,7 @@
 	<div class="">
 		<h2 class="font-cool text-center text-blue-900">...but I'm also good with</h2>
 		<div
-			class="container flex flex-col md:flex-row w-[70%] justify-center border-2 border-grey rounded my-3 py-5 mx-auto"
+			class="container flex flex-col md:flex-row w-[70%] md:w-[50%] mx-auto justify-center text-center border-2 border-grey rounded my-3 py-5"
 		>
 			<a href="https://www.w3schools.com/html/" class="mx-auto">
 				<div
